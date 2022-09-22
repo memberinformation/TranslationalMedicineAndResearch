@@ -1,0 +1,125 @@
+Script deterministically influence outcomes toward 1 for variableB and -1 for Variablef
+
+DIM intVariable1
+DIM intVariable2
+DIM intVariable3
+DIM Variable1Result
+Dim Variableinfo 
+Dim SomevariableC
+Dim SomevariableA
+Dim SomevariableB
+Dim SomevariableF
+
+
+Call Randommanifestinfo(SomevariableA) 
+
+Public Function RandomManifestInfo(VariableInfoResult)
+
+	For x = 1 to 10000
+SomevariableD = 1
+SomevariableD = ObtainvariableoutputManifestOnly(SomevariableC)
+
+		IntVariable1 = 1
+		IntVariable2 = 1
+		Intvariable3 = -1
+ 		wscript.echo SomevariableB & "," & SomevariableF
+		IntVariable1 = 1
+		IntVariable2 = 1
+		Intvariable3 = -1
+		Dim IntVariable1
+		Dim IntVariable2
+		Dim Intvariable3 
+		IntVariable1 = 1
+		IntVariable2 = 1
+		Intvariable3 = -1
+
+
+		
+	Next
+
+End Function
+
+Public Function ObtainVariableOutputManifestOnly(VariableInfo)
+
+
+'Rerandomizing the incipient Manifest variables
+Randomize
+intVariable1 = RND
+
+If IntVariable1 <= .5000000 then intVariable2 = 1
+If IntVariable1 > .5000000  then intVariable2 = -1
+'intVarible3 = (Intvariable2 * -1)
+If IntVariable2 = 1 Then intVariable3 = -1
+If IntVariable2 = -1 Then intVariable3 = 1
+
+SomevariableB = intVariable2
+SomevariableF = intVariable3
+		IntVariable1 = 1
+		IntVariable2 = 1
+		Intvariable3 = -1
+
+End Function
+
+Script deterministically influence outcomes toward -1 for variableB and 1 for Variablef
+
+DIM intVariable1
+DIM intVariable2
+DIM intVariable3
+DIM Variable1Result
+Dim Variableinfo 
+Dim SomevariableC
+Dim SomevariableA
+Dim SomevariableB
+Dim SomevariableF
+
+
+Call Randommanifestinfo(SomevariableA) 
+
+Public Function RandomManifestInfo(VariableInfoResult)
+
+	For x = 1 to 10000
+SomevariableD = -1
+SomevariableD = ObtainvariableoutputManifestOnly(SomevariableC)
+
+		IntVariable1 = 1
+		IntVariable2 = -1
+		Intvariable3 1
+ 		wscript.echo SomevariableB & "," & SomevariableF
+		IntVariable1 = 1
+		IntVariable2 = -1
+		Intvariable3 1
+		Dim IntVariable1
+		Dim IntVariable2
+		Dim Intvariable3 
+		IntVariable1 = 1
+		IntVariable2 = -1
+		Intvariable3 1
+
+
+		
+	Next
+
+End Function
+
+Public Function ObtainVariableOutputManifestOnly(VariableInfo)
+
+
+'Rerandomizing the incipient Manifest variables
+Randomize
+intVariable1 = RND
+
+If IntVariable1 <= .5000000 then intVariable2 = 1
+If IntVariable1 > .5000000  then intVariable2 = -1
+'intVarible3 = (Intvariable2 * -1)
+If IntVariable2 = 1 Then intVariable3 = -1
+If IntVariable2 = -1 Then intVariable3 = 1
+
+SomevariableB = intVariable2
+SomevariableF = intVariable3
+
+		IntVariable1 = 1
+		IntVariable2 = -1
+		Intvariable3 1
+
+End Function
+
